@@ -11,6 +11,12 @@ The project in this rpository was tested using:
 * KUKA iiwa 7R800 with Sunrise.OS 1.11.0.7
 
 --------------------------------------
+
+# Video tutorials:
+
+Video tutorials on using the interface are available ![in here](https://www.youtube.com/playlist?list=PLz558OYgHuZcK3ubmfA1rEm2UdLDDC37D).
+
+--------------------------------------
 # Installation
 There are various steps that you shall dow on the Matlab side and on the iiwa side:
 
