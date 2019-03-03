@@ -14,7 +14,7 @@ The project in this rpository was tested using:
 
 # Video tutorials:
 
-Video tutorials on using the interface are available ![in here](https://www.youtube.com/playlist?list=PLz558OYgHuZcK3ubmfA1rEm2UdLDDC37D).
+Video tutorials on using the interface are ![available in here](https://www.youtube.com/watch?v=at9xUItdidI&list=PLz558OYgHuZcK3ubmfA1rEm2UdLDDC37D).
 
 --------------------------------------
 # Installation
