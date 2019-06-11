@@ -50,6 +50,12 @@ First run the server on IIWA side using the smart pad, then you shall run the Si
 * The robot shall move according to the motion command from simulink.
 
 --------------------------------------
+# Update log:
+
+* Uploaded on 3rd-March-2019
+* Update on 11th-June-2019 (Bugfix for 14R820 in Cartesian motion mode).
+
+--------------------------------------
 
 Copyright: Mohammad Safeea.
 
