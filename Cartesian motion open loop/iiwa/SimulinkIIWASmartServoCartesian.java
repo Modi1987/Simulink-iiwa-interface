@@ -1,6 +1,7 @@
 package lbrExampleApplications;
 
 
+import static com.kuka.roboticsAPI.motionModel.BasicMotions.lin;
 import static com.kuka.roboticsAPI.motionModel.BasicMotions.ptp;
 
 import java.io.IOException;
@@ -79,6 +80,10 @@ import java.nio.ByteBuffer;
  * 4- To change the timeout value, change the argument for the instruction
  *    soc.setSoTimeout(10000),  the argument is in milliseconds.
  * 
+ * Updated on 11th/June/2019
+ * Bug fix (the bug happened only in 14R820)
+ * To fix the bug hard-coding of the Cartesian home position was performed.
+ * 
  */
 
 public class SimulinkIIWASmartServoCartesian extends RoboticsAPIApplication
@@ -146,6 +151,11 @@ public class SimulinkIIWASmartServoCartesian extends RoboticsAPIApplication
     {
         _lbr.move(
         		ptp(0., Math.PI / 180 * 30.,0.,-Math.PI / 180 * 80.,0.,Math.PI / 180 * 70., 0.).setJointVelocityRel(0.15));
+        // Bug fix (the bug happened only in 14R820)
+        // Hard-code the Cartesian home position.
+        Frame daframe= new Frame(575.87,0.05,397.56,Math.PI,0,Math.PI);
+        _lbr.move(
+        		lin(daframe).setJointVelocityRel(0.15));
         /* Note: The Validation itself justifies, that in this very time instance, the load parameter setting was
          * sufficient. This does not mean by far, that the parameter setting is valid in the sequel or lifetime of this
          * program */
