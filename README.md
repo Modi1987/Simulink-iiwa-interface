@@ -32,12 +32,12 @@ To setup the SimulinkIIWA interface the following steps, for Matlab and for the 
 
 ## On Matlab side:
 * First open Matlab 2018a 
-* Then, you shall install the Simulink Desktop Real-time Kernel by ![following the instructions in here](https://www.mathworks.com/help/sldrt/ug/real-time-windows-target-kernel.html).
+* Then, you shall install the Simulink Desktop Real-time Kernel by [following the instructions in here](https://www.mathworks.com/help/sldrt/ug/real-time-windows-target-kernel.html).
 * Note: Mathworks provides the (Simulink Desktop Real-time) under Windows and Mac operating systems. Though the provided scripts were tested only under Windows. To check the installation status of the real-time kernel, type the command (rtwho) in the command window of Matlab 2018a.
 --------------------------------------
 
 # Operation:
-First run the server on IIWA side using the smartPad, then you shall run the Simulink project in Matlab 2018a, as detaied in the following:
+First run the server on IIWA side using the smartPad, then you shall run the Simulink project in Matlab 2018a, as detailed in the following:
 
 ## On the IIWA side:
 * Run the server application from the smartPad, you find it in the applications-list under the name "SimulinkIIWADirectServoCartesian".
@@ -60,5 +60,5 @@ First run the server on IIWA side using the smartPad, then you shall run the Sim
 
 Copyright: Mohammad Safeea.
 
-Provided under MIT license (check the license).
+Provided under MIT license ([check the license](https://github.com/Modi1987/Simulink-iiwa-interface/blob/master/LICENSE)).
 
