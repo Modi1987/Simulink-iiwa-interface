@@ -2,7 +2,7 @@
 The SimulinkIIWA is an interface that allows the user to control KUKA iiwa manipulaotrs from inside Simulink.
 Unlike the ![KUKA Sunrise Toolbox or KST](https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox), the SimulinkIIWA interface is built upon UDP protocol instead of TCP/IP protocol.
 
-![cover photo](https://github.com/Modi1987/Simulink-iiwa-interface/Photos/SimulinkIIWAcover.jpg)
+![cover photo](https://github.com/Modi1987/Simulink-iiwa-interface/raw/master/Photos/SimulinkIIWAcover.jpg)
 --------------------------------------
 
 # Requirments:
