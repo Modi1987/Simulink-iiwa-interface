@@ -50,6 +50,24 @@ First run the server on IIWA side using the smartPad, then you shall run the Sim
 * After running the "SimulinkIIWADirectServoCartesian" on the robot side from the smartPad, you shall run the Simulink project "smartDirectServoCartesian.slx" from Simulink by clicking the run button.
 * The robot shall move according to the motion command from Simulink.
 
+
+
+## Citation
+Please cite the following article in your publications if it helps your research 🙏 :
+
+```javascript
+@article{doi:10.1080/0951192X.2023.2177744,
+author = {M. Safeea and P. Neto},
+title = {Model-based hardware in the loop control of collaborative robots: Simulink and Python based interfaces},
+journal = {International Journal of Computer Integrated Manufacturing},
+volume = {0},
+number = {0},
+pages = {1-13},
+year  = {2023},
+publisher = {Taylor & Francis},
+doi = {10.1080/0951192X.2023.2177744},
+}
+```
 --------------------------------------
 # Update log:
 
